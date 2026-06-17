@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Startpaket för nybörjare | Enkel odling</title>
+  <meta name="description" content="Startpaket med lättodlade blomfrön, guide och inspiration för nya odlare.">
+  
+<!-- 
+GA4-FÖRBEREDELSE:
+När du skapar en GA4-egendom kan du klistra in din Google tag här i <head>.
+Exempel:
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+-->
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="navbar" aria-label="Huvudmeny">
+    <a href="index.html" class="logo" aria-label="Till startsidan">Enkel odling</a>
+    <button class="menu-toggle" aria-label="Öppna meny">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Start</a></li>
+      <li><a href="produkt-1.html">Startpaket</a></li>
+      <li><a href="produkt-2.html">Sommaräng</a></li>
+      <li><a href="nyhetsbrev.html">Nyhetsbrev</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="page-hero">
+    <img src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&w=1200&q=80" alt="Person som planterar blommor i jord">
+    <div>
+      <p class="eyebrow">Produkt 1</p>
+      <h1>Startpaket för nybörjare</h1>
+      <p class="lead">För dig som vill lyckas redan första säsongen. Paketet innehåller lättodlade blomfrön och en tydlig steg-för-steg-guide.</p>
+      <a href="#intresse-form" class="btn">Skicka intresse</a>
+    </div>
+  </section>
+
+  <section class="section two-columns">
+    <div>
+      <h2>Det här ingår</h2>
+      <ul class="checklist">
+        <li>5 lättodlade blomfrösorter</li>
+        <li>Digital odlingsguide för nybörjare</li>
+        <li>Tips för balkong, pallkrage och rabatt</li>
+        <li>Rekommenderat pris: 249 kr</li>
+      </ul>
+    </div>
+    <div class="info-box">
+      <h3>Exempel på mätpunkter</h3>
+      <p>Den här sidan kan användas för att mäta produktintresse, CTA-klick, formulärstarter och konverteringar.</p>
+    </div>
+  </section>
+
+  <section class="form-section" id="intresse-form">
+    <h2>Intresseformulär</h2>
+    <p>Det här formuläret kan senare ersättas med HubSpot-formulär.</p>
+    <!-- HUBSPOT-PLATSHÅLLARE: Klistra in HubSpot embed-kod här om ni vill ersätta HTML-formuläret. -->
+    <form action="thank-you.html" method="GET" data-form-name="produkt-1-intresse">
+      <label for="name">Namn</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">E-post</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="level">Odlingsnivå</label>
+      <select id="level" name="level">
+        <option>Nybörjare</option>
+        <option>Hobbyodlare</option>
+        <option>Van odlare</option>
+      </select>
+
+      <button type="submit" class="btn" data-track="form_product_1">Skicka intresse</button>
+    </form>
+  </section>
+
+  <section class="cta-panel">
+    <h2>Vill du jämföra med vårt ängspaket?</h2>
+    <a href="produkt-2.html" class="btn btn-secondary">Se Sommaräng hemma</a>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div>
+    <strong>Enkel odling</strong>
+    <p>Blomfrön, guider och inspiration för dig som vill lyckas med odling.</p>
+  </div>
+  <p class="footer-small">© 2026 Enkel odling · Kurswebbplats för analys och effektmätning</p>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
